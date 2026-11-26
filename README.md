@@ -11,7 +11,7 @@ Learning web development skill via Python will refresh my understanding on codin
 There will be uploaded modules based on each section in Udemy course. I will include the progress that i work on
 
 ## Course Progress and Modules
-- [ ] Section 1: Getting Started
+- [x] Section 1: Getting Started
 - [ ] Section 2: Course Setup
 - [ ] Section 3: URLs & Views
 - [ ] Section 4: Templates & Static Files
