@@ -1,0 +1,37 @@
+ul {
+    list-style: none;
+    margin: 2rem auto;
+    width: 80%;
+    max-width: 300rem;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.199);
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    height:100%;
+    background-color: #ffffff;
+}
+
+li {
+    margin:3rem 1rem;
+    text-align: center;
+    font-size: 1.25rem;
+    border: 1px solid #756e6e;
+    padding: 1rem 1rem;
+}
+
+
+
+li a {
+    text-decoration: none;
+    color: #400b0b;
+}
+
+li a:hover,
+li a:active {
+    color: #a41717;
+}
+
+body {margin: 3;
+background-color: #1c1919;}
