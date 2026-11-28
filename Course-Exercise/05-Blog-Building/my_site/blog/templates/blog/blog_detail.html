@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block css%}
+{{ block.super}}
+    <link rel="stylesheet" href="{% static 'blog/blog_detail.css' %}">
+    <link rel="stylesheet" href="{% static 'blog/includes/header.css' %}">
+{% endblock %}
+
+{%block title%} {{title|title}} {%endblock%}
+
+{%block content%}
+{% include "blog/includes/header.html" %}
+<div class="post-container">
+    <h1>{{title|title}}</h1>
+    {% if content is not None %}
+        <h2>{{content}}</h2>
+    {% else %}
+        <p class="no-challenge"> This blog is not written yet </p>
+    {% endif %}
+</div>
+ <h3> checking <h3>
+{% endblock %}
