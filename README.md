@@ -15,7 +15,7 @@ There will be uploaded modules based on each section in Udemy course. I will inc
 - [x] Section 2: Course Setup
 - [x] Section 3: URLs & Views
 - [x] Section 4: Templates & Static Files
-- [ ] Section 5: Course Project: Building a Blog - The Basics
+- [x] Section 5: Course Project: Building a Blog - The Basics
 - [ ] Section 6: Data & Models
 - [ ] Section 7: Admin
 - [ ] Section 8: Relationships

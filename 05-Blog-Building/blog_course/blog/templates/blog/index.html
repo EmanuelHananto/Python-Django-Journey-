@@ -1,0 +1,36 @@
+{%extends "base.html"%}
+{%load static%}
+
+{% block title %}
+    My blog
+{% endblock  %}
+
+{% block css_files %}
+    <link rel="stylesheet" href="{%static "blog/post.css" %}">
+    <link rel="stylesheet" href="{%static "blog/index.css" %}">
+{% endblock css_files %}
+
+{% block content %}
+    <section id="welcome">
+        <header>
+            <img src="{% static "blog/images/pepe.jpg"%}" alt="Eman - The Author of This blog"/>
+            <h2> EMAN'S Blog </h2>
+        </header>
+    </section>
+
+    <section id="latest-posts">
+        <h2>Latest Post</h2>
+        <ul>
+            {% for post in latest %}
+                {% include "blog/includes/post.html" %}
+            {% endfor %}
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2> About Me </h2>
+        <p> I like frogies, pepe the frogs, programming and learning new stuff </p>
+        <p> My goal is to be happy and feed frogies </p>
+    </section>
+{% endblock content %}
+
